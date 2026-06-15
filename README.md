@@ -1,7 +1,7 @@
 <div align="center">⚡ IPLaid v3.1.7 ⚡</div>
 
 <p align="center">
-  <img assets="./banner.png" alt="SYLHETYHACKVENGER Banner" width="100%">
+  <img assets="./banner.png" width="100%">
 </p>
 
 
