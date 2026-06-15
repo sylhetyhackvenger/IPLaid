@@ -32,7 +32,7 @@ Built for researchers, network administrators, students, and cybersecurity enthu
 
 ⚙️ INSTALLATION
 
-git clone https://github.com/USERNAME/IPLaid.git
+git clone https://github.com/sylhetyhackvenger/IPLaid
 
 cd IPLaid
 
