@@ -1,9 +1,7 @@
 <div align="center">⚡ IPLaid v3.1.7 ⚡</div>
 
-<p align="center">
-  <img src="./banner.png" width="100%">
-</p>
 
+<img src="./assets/banner.png" alt="IPLaid Banner" width="100%">
 
 
 🌐 ADVANCED NETWORK RECONNAISSANCE SUITE
