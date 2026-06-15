@@ -1,6 +1,10 @@
 <div align="center">⚡ IPLaid v3.1.7 ⚡</div>
 
-<div align="center">"Banner" (assets/banner.png)
+<p align="center">
+  <img assets="./banner.png" alt="SYLHETYHACKVENGER Banner" width="100%">
+</p>
+
+
 
 🌐 ADVANCED NETWORK RECONNAISSANCE SUITE
 
