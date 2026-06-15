@@ -1,215 +1,137 @@
-# 🔥 W8IP PRO MAX SCANNER
+<div align="center">⚡ IPLaid v3.1.7 ⚡</div>
 
-Advanced IP Intelligence & Deep Port Scanner Tool
-Coded by **W8Team / MD SOJIB**
+<div align="center">"Banner" (assets/banner.png)
 
----
+🌐 ADVANCED NETWORK RECONNAISSANCE SUITE
 
-## 🚀 Features
+Crafted By SYLHETYHACKVENGER // THE-ERROR808
 
-* 🌐 Domain → IP + Full Info
-* 📡 Reverse IP Scan (CIDR /24 /16 /8)
-* 🧠 Hostname Detection
-* 🖥 Server Detection (nginx / apache / etc)
-* 📄 Website Title Grabber
-* ⚡ Deep Scan (ALL PORTS 1–65535)
-* 🔥 Real-Time Port Detection
-* 🛑 CTRL + C Stop Support
-* 📁 Auto Save Results (deep_scan.txt)
-* 🎨 Clean & Colorful Output
-* 📱 Termux Supported
+<img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="700"></div>---
 
----
+🚀 OVERVIEW
 
-## ⚙️ Installation (PC / Linux / Windows)
+IPLaid is a futuristic cybersecurity reconnaissance platform designed for network visibility, asset discovery, service identification, and exposure assessment within authorized environments. Inspired by cyberpunk aesthetics and terminal-driven workflows, IPLaid combines domain intelligence, hostname resolution, subnet enumeration, web service fingerprinting, and asynchronous port analysis into a single operator-focused interface.
 
-### 1️⃣ Clone Repository
+🧠 Resolve domains and uncover infrastructure details.
 
-```bash
-git clone https://github.com/W8SOJIB/W8IPReverseInfo
-cd W8IPReverseInfo
-```
+🌍 Gather public network intelligence including ISP, ASN, organization, and geolocation.
 
-### 2️⃣ Install Requirements
+🔎 Enumerate hosts across network ranges.
 
-```bash
-pip install -r requirements.txt
-```
+🖥️ Identify web servers and exposed HTTP services.
 
-### 3️⃣ Run Tool
+⚡ Perform high-speed asynchronous connectivity assessments.
 
-```bash
-python W8IPReverseInfo.py
-```
+📊 Generate reports for auditing and documentation.
+
+🛡️ Support security assessments, asset inventory, and defensive security operations.
+
+Built for researchers, network administrators, students, and cybersecurity enthusiasts who value visibility, awareness, and operational efficiency.
 
 ---
 
-## 📱 Termux Installation (Android)
+⚙️ INSTALLATION
 
-### Step 1: Update Packages
+git clone https://github.com/USERNAME/IPLaid.git
 
-```bash
-pkg update && pkg upgrade
-```
+cd IPLaid
 
-### Step 2: Install Python & Git
+pip install requests colorama
 
-```bash
-pkg install python git
-```
-
-### Step 3: Clone Tool
-
-```bash
-git clone https://github.com/W8SOJIB/W8IPReverseInfo
-cd W8IPReverseInfo
-```
-
-### Step 4: Install Requirements
-
-```bash
-pip install -r requirements.txt
-```
-
-### Step 5: Run
-
-```bash
-python W8IPReverseInfo.py
-```
+python iplaid.py
 
 ---
 
-## 🎯 Usage
+🎮 EXECUTION
 
-After running the tool:
+python iplaid.py
 
-```
-[1] Domain → IP + Info
-[2] IP Range Scan (/24 + Server + Title)
-[3] Deep Scan (ALL PORTS ⚡ + Server + Title + Save)
-[4] Exit
-```
+Available Modules
 
-### Example:
-
-```
-Enter CIDR ➤ 103.165.48.0/24
-```
+[1] DOMAIN INTELLIGENCE
+[2] CIDR RANGE SCAN
+[3] DEEP SCAN
+[4] TERMINATE SESSION
 
 ---
 
-## 📁 Output File
+🌐 DOMAIN INTELLIGENCE
 
-Deep scan results are saved in:
+✔ Domain Resolution
 
-```
-deep_scan.txt
-```
+✔ Reverse DNS Lookup
 
-Example:
+✔ ISP Discovery
 
-```
-103.165.48.10 Hostname: example.com
-103.165.48.10 Server: nginx
-103.165.48.10 Title: welcome page
-103.165.48.10:22
-103.165.48.10:80
-```
+✔ ASN Enumeration
+
+✔ Organization Identification
+
+✔ Geolocation Intelligence
 
 ---
 
-## ⚡ Performance Tips
+🔎 CIDR RANGE SCANNER
 
-| Device    | Recommended MAX_CONCURRENT |
-| --------- | -------------------------- |
-| Termux 📱 | 300–700                    |
-| PC 💻     | 800–2000                   |
-| VPS 🔥    | 3000+                      |
+✔ Host Discovery
 
-Edit in code:
+✔ Hostname Enumeration
 
-```python
-MAX_CONCURRENT = 800
-```
+✔ HTTP Detection
+
+✔ Server Header Collection
+
+✔ Website Title Extraction
 
 ---
 
-## ⚠️ Disclaimer
+⚡ DEEP SCAN ENGINE
 
-This tool is for **educational & security testing purposes only**.
-Do not use this tool on systems without proper authorization.
+✔ Full TCP Visibility Assessment
 
----
+✔ Massive Async Architecture
 
-## 📜 License
+✔ Service Enumeration
 
-This project is licensed under the **MIT License**.
+✔ Result Logging
 
-You are free to:
-
-* Use
-* Modify
-* Distribute
-
-But must include original credit:
-
-**W8Team / MD SOJIB**
+✔ Network Exposure Review
 
 ---
 
-## 💻 Author
+🛡️ FEATURES
 
-* 👑 MD SOJIB
-* ⚡ W8Team
-
----
-
-## ⭐ Support
-
-If you like this tool, give it a ⭐ on GitHub!
-
----
-
-## 🔥 W8IP PRO MAX SCANNER
-
-W8IP PRO MAX SCANNER is a powerful Python-based network intelligence and deep scanning tool designed for fast and efficient analysis of domains and IP ranges.
-
-This tool combines multiple features such as domain resolution, reverse IP lookup, server detection, and full port scanning into one lightweight yet powerful CLI utility.
+✓ Domain Intelligence
+✓ Host Discovery
+✓ Reverse DNS Enumeration
+✓ HTTP Service Detection
+✓ Web Title Fingerprinting
+✓ ASN Intelligence
+✓ ISP Identification
+✓ Async Architecture
+✓ Report Generation
+✓ Cyberpunk Terminal Interface
 
 ---
 
-### ⚡ Key Capabilities
+📸 LIVE OPERATIONAL FEED
 
-* 🌐 Convert Domain → IP with detailed information
-* 📡 Scan IP ranges using CIDR notation (/24, /16, /8)
-* 🧠 Reverse DNS (Hostname detection)
-* 🖥 Detect web server (nginx, apache, cloudflare, etc.)
-* 📄 Extract website titles from live servers
-* 🔥 Perform deep scan on ALL ports (1–65535)
-* ⚡ Real-time open port detection
-* 🛑 Interrupt scan anytime using CTRL + C
-* 📁 Automatically save results to file
-* 📱 Fully compatible with Termux (Android)
+<div align="center"><img src="https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif" width="450"><img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="450"></div>---
+
+⚠️ DISCLAIMER
+
+This project is intended exclusively for educational purposes, network administration, asset inventory, and authorized cybersecurity assessments. Users are responsible for complying with applicable laws, regulations, and organizational policies.
 
 ---
 
-### 🎯 Why This Tool?
+<div align="center">┌──────────────────────────────────────────────┐
+│ SYSTEM STATUS : ONLINE                       │
+│ NETWORK VISIBILITY : ACTIVE                  │
+│ NEURAL SCAN ENGINE : ENGAGED                 │
+│ OPERATOR : SYLHETYHACKVENGER                 │
+│ BUILD : IPLaid v3.1.7                        │
+└──────────────────────────────────────────────┘
 
-W8IP PRO MAX SCANNER is built for speed, simplicity, and flexibility.
-It uses asynchronous scanning techniques to achieve high performance while maintaining a clean and readable output.
+<img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:00ff99,100:001a1a&section=footer"/>⚡ "Pushing Bits Through The Void Like A Ghost In The Wire" ⚡
 
-Whether you are learning networking, testing systems, or analyzing infrastructure, this tool provides a solid all-in-one solution.
-
----
-
-### ⚠️ Disclaimer
-
-This tool is intended for educational and authorized security testing purposes only.
-Unauthorized use against systems you do not own is strictly prohibited.
-
----
-
-### 👑 Author
-
-Developed by **W8Team / MD SOJIB**
-
+</div>
